@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+}
+
+.stApp {
+    background-color: white;
+}
+
+header {
+    background-color: #E2830D !important;
+}
+
+.chat-row {
+    display: flex;
+    margin: 5px;
+    width: 100%;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.chat-bubble {
+    font-family: "Source Sans Pro", sans-serif, "Segoe UI", "Roboto", sans-serif;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    margin: 0px 7px;
+    max-width: 80%;
+}
+
+.ai-bubble {
+    background: #FEF5CA; /* soft yellow for human bubble */
+    color: #2C3E50; /* dark blue text */
+    border-radius: 10px;
+}
+
+.human-bubble {
+    background: #7DDFE2; /* soft green for AI bubble */
+    color: #2C3E50; /* dark blue text */
+    border-radius: 20px;
+}
+
+.chat-icon {
+    border-radius: 5px;
+}
+
+.text-intro{
+    font-size: 20px;
+    color: #E2681B;
+}
+
+div[data-testid="stExpander"] details summary p{
+    
+    font-size: 4rem;
+}

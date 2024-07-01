@@ -1,0 +1,13 @@
+/* Style for the expander header */
+div[data-testid="stExpander"] details summary{
+    background-color: white !important; /* color #768894*/ 
+    /*color: red !important; /* Your desired text color */ #768894
+}
+
+div[data-testid="stExpander"] details summary h6{
+    color: black !important; /* Your desired text color */
+}
+
+div[data-testid="stExpander"] details div p{
+    font-size: 1rem;
+}
